@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+	  <type>material</type>
+              <object-name>Plane</object-name>
+	  <emission>
+		  <red>   0.5 </red>
+		  <green> 0.25 </green>
+		  <blue>  0.25 </blue>
+		  <factor-prop>systems/electrical/outputs/instrument-lights-norm</factor-prop>
+	  </emission>
+  </animation>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ASI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -2.080 </x-m>
+      <y-m> -0.382 </y-m>
+      <z-m> 0.625 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+  <!--co_pilot ASI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -2.085 </x-m>
+      <y-m> 0.203 </y-m>
+      <z-m> 0.670 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- AI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/ai/adi.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.293 </y-m>
+      <z-m> 0.669 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!--co-pilot AI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/ai/adi.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.293 </y-m>
+      <z-m> 0.669 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model> 
+
+ <!-- TURN --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -2.083 </x-m>
+      <y-m> -0.382 </y-m>
+      <z-m> 0.535 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+ <!--co-pilot TURN --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -2.083 </x-m>
+      <y-m> 0.203 </y-m>
+      <z-m> 0.580 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ALT --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m> 0.670 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- co-pilot ALT --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.385 </y-m>
+      <z-m> 0.620 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- DG --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/dg/dg.xml</path>
+    <offsets>
+      <x-m> -2.035 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.840 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- VSI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/vsi/vsi-6kfpm.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.580 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!--co-pilot VSI --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/vsi/vsi-6kfpm.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.385 </y-m>
+      <z-m> 0.530 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- HSI --> 
+  <model>
+     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/hsi/A-10-HSI.xml</path>
+    <offsets>
+      <x-m> -2.085 </x-m>
+      <y-m> -0.293 </y-m>
+      <z-m> 0.580 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- co-HSI -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/hsi/A-10-HSI.xml</path>
+    <offsets>
+      <x-m> -2.085 </x-m>
+      <y-m> 0.293 </y-m>
+      <z-m> 0.580 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--rpm-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/rpm/prop-rpm.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.067 </y-m>
+      <z-m> 0.685 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--rpm n2-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/rpm-n2/prop-rpm.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.067 </y-m>
+      <z-m> 0.625 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--trq-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/trq/trq.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.127 </y-m>
+      <z-m> 0.685 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--tqt-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/tqt/tqt.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.127 </y-m>
+      <z-m> 0.625 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!--psi-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/psi/psi.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.127 </y-m>
+      <z-m> 0.567 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!--FuelGauge-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/FuelGauge/FuelGauge.xml</path>
+    <offsets>
+      <x-m> -2.080 </x-m>
+      <y-m> -0.067 </y-m>
+      <z-m> 0.567 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!--clock-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/chronograph/chronograph.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.009 </y-m>
+      <z-m> 0.685 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+<!--BatteryGauge-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/BatteryGauge/BatteryGauge.xml</path>
+    <offsets>
+      <x-m> -2.085 </x-m>
+      <y-m> -0.009 </y-m>
+      <z-m> 0.625 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/Landing-Gear/gearhandle.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.088 </y-m>
+      <z-m> 0.355 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/master.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.307 </y-m>
+      <z-m> 0.410 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/ignition.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.340 </y-m>
+      <z-m> 0.410 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/starter.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.423 </y-m>
+      <z-m> 0.410 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- GEN -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/gen.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.387 </y-m>
+      <z-m> 0.410 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- dme -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/DME/dme.xml</path>
+    <offsets>
+      <x-m> -2.091 </x-m>
+      <y-m> -0.460 </y-m>
+      <z-m> 0.550 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- co-dme -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/DME/dme.xml</path>
+    <offsets>
+      <x-m> -2.091 </x-m>
+      <y-m> 0.460 </y-m>
+      <z-m> 0.550 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/kt70/kt70.xml</path>
+    <offsets>
+      <x-m> -2.092 </x-m>
+      <y-m> 0.088 </y-m>
+      <z-m> 0.553 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/tacan/A-10-tacan.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.050 </y-m>
+      <z-m> 0.490 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   90 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/flap-panel/flap-panel.xml</path>
+    <offsets>
+      <x-m> -2.080 </x-m>
+      <y-m> -0.080 </y-m>
+      <z-m> 0.485 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/Lights/nosegear-lamp.xml</path>
+    <offsets>
+      <x-m> -2.077 </x-m>
+      <y-m> -0.060 </y-m>
+      <z-m> 0.477 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg> -15 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/Lights/nosegear-lamp.xml</path>
+    <offsets>
+      <x-m> -2.077 </x-m>
+      <y-m> -0.110 </y-m>
+      <z-m> 0.477 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg> -15 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/Lights/nosegear-lamp.xml</path>
+    <offsets>
+      <x-m> -2.082 </x-m>
+      <y-m> -0.085 </y-m>
+      <z-m> 0.495 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg> -15 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--FuelGauge-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/fuelselector.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> -0.009 </y-m>
+      <z-m> 0.560 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- brake caution --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/caution/caution.xml</path>
+    <offsets>
+      <x-m> -2.048 </x-m>
+      <y-m> -0.230 </y-m>
+      <z-m> 0.770 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!--Co- brake caution --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/caution/caution.xml</path>
+    <offsets>
+      <x-m> -2.048 </x-m>
+      <y-m> 0.230 </y-m>
+      <z-m> 0.770 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/lights.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.322 </y-m>
+      <z-m> 0.365 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/landing-lights.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.167 </y-m>
+      <z-m> 0.365 </z-m>-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/COMM/uhf.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.088 </y-m>
+      <z-m> 0.680 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/COMM/comm1.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.088 </y-m>
+      <z-m> 0.612 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/COMM/nav1.xml</path>
+    <offsets>
+      <x-m> -2.090 </x-m>
+      <y-m> 0.120 </y-m>
+      <z-m> 0.490 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- beacon -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/beacon-lights.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.268 </y-m>
+      <z-m> 0.365 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!-- nav-lights -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/nav-lights.xml</path>
+    <offsets>
+      <x-m> -2.100 </x-m>
+      <y-m> -0.218 </y-m>
+      <z-m> 0.365 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/LT/LT.xml</path>
+    <offsets>
+      <x-m> -2.103 </x-m>
+      <y-m> -0.207 </y-m>
+      <z-m> 0.393 </z-m>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/power_lever/power_lever.xml</path>
+    <offsets>
+      <x-m> -1.930 </x-m>
+      <y-m> -0.00 </y-m>
+      <z-m> 0.300</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/flap-switch/flap_sw.xml</path>
+    <offsets>
+      <x-m> -1.830 </x-m>
+      <y-m> -0.000 </y-m>
+      <z-m> 0.270</z-m>
+      <roll-deg> 0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--parkingBrake-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/parking-brake/brake-knob.xml</path>
+    <offsets>
+      <x-m> -2.101 </x-m>
+      <y-m> -0.097 </y-m>
+      <z-m> 0.256 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--parkingBrake-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/lock-knob/lock-knob.xml</path>
+    <offsets>
+      <x-m> -2.102 </x-m>
+      <y-m> -0.300 </y-m>
+      <z-m> 0.330 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--co-parkingBrake-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/lock-knob/lock-knob.xml</path>
+    <offsets>
+      <x-m> -2.102 </x-m>
+      <y-m> 0.300 </y-m>
+      <z-m> 0.330 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+ <!-- stall lamp switch --> 
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -2.041 </x-m>
+      <y-m> 0.127</y-m>
+      <z-m> 0.762 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/friction-knob/friction-knob.xml</path>
+    <offsets>
+      <x-m> -1.930 </x-m>
+      <y-m> 0.071 </y-m>
+      <z-m> 0.300</z-m>
+      <roll-deg>    90 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -2.040 </x-m>
+      <y-m> -0.140 </y-m>
+      <z-m> 0.762 </z-m>
+      <roll-deg>  0 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/starter2.xml</path>
+    <offsets>
+      <x-m> -2.040 </x-m>
+      <y-m> -0.115 </y-m>
+      <z-m> 0.762 </z-m>
+      <roll-deg>  0 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -2.091 </x-m>
+      <y-m> -0.460 </y-m>
+      <z-m> 0.580 </z-m>
+      <roll-deg>  -90 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -2.091 </x-m>
+      <y-m> 0.460 </y-m>
+      <z-m> 0.580 </z-m>
+      <roll-deg>  -90 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+
+
+</PropertyList>
+
+
+
