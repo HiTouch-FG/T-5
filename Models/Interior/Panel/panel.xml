@@ -194,8 +194,8 @@
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/rpm/prop-rpm.xml</path>
     <offsets>
       <x-m> -2.090 </x-m>
-      <y-m> -0.067 </y-m>
-      <z-m> 0.685 </z-m>
+      <y-m> -0.065 </y-m>
+      <z-m> 0.693 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -207,8 +207,8 @@
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/rpm-n2/prop-rpm.xml</path>
     <offsets>
       <x-m> -2.090 </x-m>
-      <y-m> -0.067 </y-m>
-      <z-m> 0.625 </z-m>
+      <y-m> -0.065 </y-m>
+      <z-m> 0.628 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -221,7 +221,7 @@
     <offsets>
       <x-m> -2.090 </x-m>
       <y-m> -0.127 </y-m>
-      <z-m> 0.685 </z-m>
+      <z-m> 0.693 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -234,7 +234,7 @@
     <offsets>
       <x-m> -2.090 </x-m>
       <y-m> -0.127 </y-m>
-      <z-m> 0.625 </z-m>
+      <z-m> 0.628 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -248,7 +248,7 @@
     <offsets>
       <x-m> -2.090 </x-m>
       <y-m> -0.127 </y-m>
-      <z-m> 0.567 </z-m>
+      <z-m> 0.565 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -261,8 +261,8 @@
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/FuelGauge/FuelGauge.xml</path>
     <offsets>
       <x-m> -2.080 </x-m>
-      <y-m> -0.067 </y-m>
-      <z-m> 0.567 </z-m>
+      <y-m> -0.065 </y-m>
+      <z-m> 0.565 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -275,8 +275,8 @@
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/chronograph/chronograph.xml</path>
     <offsets>
       <x-m> -2.090 </x-m>
-      <y-m> -0.009 </y-m>
-      <z-m> 0.685 </z-m>
+      <y-m> -0.003 </y-m>
+      <z-m> 0.693 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -289,8 +289,8 @@
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/BatteryGauge/BatteryGauge.xml</path>
     <offsets>
       <x-m> -2.085 </x-m>
-      <y-m> -0.009 </y-m>
-      <z-m> 0.625 </z-m>
+      <y-m> -0.003 </y-m>
+      <z-m> 0.628 </z-m>
       <roll-deg>    0 </roll-deg>
       <pitch-deg>   0 </pitch-deg>
       <heading-deg> 0 </heading-deg>
@@ -636,7 +636,7 @@
     </offsets>
   </model>
 
-<!--parkingBrake-->
+<!--knob-->
   <model>
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/lock-knob/lock-knob.xml</path>
     <offsets>
@@ -649,12 +649,38 @@
     </offsets>
   </model>
 
-<!--co-parkingBrake-->
+<!--knob-->
   <model>
     <path>Aircraft/T-5/Models/Interior/Panel/Instruments/lock-knob/lock-knob.xml</path>
     <offsets>
       <x-m> -2.102 </x-m>
       <y-m> 0.300 </y-m>
+      <z-m> 0.330 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--DEFLOSTER_knob-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/defroster-knob/defroster-knob.xml</path>
+    <offsets>
+      <x-m> -2.099 </x-m>
+      <y-m> -0.470 </y-m>
+      <z-m> 0.330 </z-m>-deg>
+      <roll-deg>    0</roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+<!--CO-DEFLOSTER_knob-->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/defroster-knob/defroster-knob.xml</path>
+    <offsets>
+      <x-m> -2.099 </x-m>
+      <y-m> 0.470 </y-m>
       <z-m> 0.330 </z-m>-deg>
       <roll-deg>    0</roll-deg>
       <pitch-deg>   0 </pitch-deg>
@@ -736,8 +762,31 @@
     </offsets>
   </model>
 
+<!-- INDICATE PANEL -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/indicate-panel/indicate-panel.xml</path>
+    <offsets>
+      <x-m> -2.044 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.765 </z-m>
+      <roll-deg>  0 </roll-deg>
+      <pitch-deg> 0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
 
-
+<!-- INDICATE PANEL -->
+  <model>
+    <path>Aircraft/T-5/Models/Interior/Panel/Instruments/outer_temp/outer_temp.xml</path>
+    <offsets>
+      <x-m> -1.790 </x-m>
+      <y-m> -0.130 </y-m>
+      <z-m> 1.080 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   67 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
 </PropertyList>
 
 
