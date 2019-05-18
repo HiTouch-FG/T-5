@@ -90,11 +90,9 @@
     <object-name>tourverriere</object-name>
     <object-name>co-tourverriere</object-name>
     <object-name>air</object-name>
-
-    <!--<property-base>sim/model/livery</property-base>-->
+    <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
-    <texture>texture.png</texture>
-
+    <texture>Aircraft/T-5/Models/Liveries/Default.png</texture>
     <shininess>128</shininess>
   </animation>
 
@@ -162,6 +160,7 @@
         <property>/sim/replay/replay-state</property>
         <value>0</value>
       </equals>
+      <property>gear/gear/ground-is-solid</property>
       </and>
     </condition>
   </animation>

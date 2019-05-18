@@ -4,8 +4,8 @@
 
   <sim>
     <description>T-5 (YASim)</description>
-    <status>V1.3</status>
-    <author>Hitoshi Uchida(3D/FDM)</author>
+    <long-description>Ver.1.5</long-description>
+    <author>Hitoshi Uchida 'HiTouch'(3D/FDM)</author>
   </sim>
 
 </PropertyList>
