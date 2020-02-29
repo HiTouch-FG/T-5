@@ -1,73 +1,56 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
 
   <path>immat.ac</path>
 
   <animation>
-    <!-- Immatriculations -->
-    <object-name>ImatWing1</object-name>
-    <object-name>ImatWing2</object-name>
-    <object-name>ImatWing3</object-name>
-    <object-name>ImatWing4</object-name>
-    <object-name>ImatWing5</object-name>
-    <object-name>ImatWing6</object-name>
-    <object-name>ImatFuselageL1</object-name>
-    <object-name>ImatFuselageL2</object-name>
-    <object-name>ImatFuselageL3</object-name>
-    <object-name>ImatFuselageL4</object-name>
-    <object-name>ImatFuselageL5</object-name>
-    <object-name>ImatFuselageL6</object-name>
-    <object-name>ImatFuselageR1</object-name>
-    <object-name>ImatFuselageR2</object-name>
-    <object-name>ImatFuselageR3</object-name>
-    <object-name>ImatFuselageR4</object-name>
-    <object-name>ImatFuselageR5</object-name>
-    <object-name>ImatFuselageR6</object-name>
-    <object-name>ImatPanel1</object-name>
-    <object-name>ImatPanel2</object-name>
-    <object-name>ImatPanel3</object-name>
-    <object-name>ImatPanel4</object-name>
-    <object-name>ImatPanel5</object-name>
-    <object-name>ImatPanel6</object-name>
+	<!-- Immatriculations -->
+	<object-name>ImatWing3</object-name>
+	<object-name>ImatWing4</object-name>
+	<object-name>ImatFuselageL1</object-name>
+	<object-name>ImatFuselageL2</object-name>
+	<object-name>ImatFuselageL3</object-name>
+	<object-name>ImatFuselageL4</object-name>
+	<object-name>ImatFuselageR1</object-name>
+	<object-name>ImatFuselageR2</object-name>
+	<object-name>ImatFuselageR3</object-name>
+	<object-name>ImatFuselageR4</object-name>
+	<property-base>sim/model/livery</property-base>
+	<texture-prop>texture</texture-prop>
+	<texture>Aircraft/T-5/Models/Immat/Immat.png</texture>
+  </animation>
+
+  <animation>
+	<!-- Immatriculations -->
+	<object-name>ImatPanel1</object-name>
+	<object-name>ImatPanel2</object-name>
+	<object-name>ImatPanel3</object-name>
+	<object-name>ImatPanel4</object-name>
+	<property-base>sim/model/livery</property-base>
+	<texture-prop>texture</texture-prop>
+	<texture>Aircraft/T-5/Models/Immat/immat-white.png</texture>
   </animation>
 
   <animation>
     <type>noshadow</type>
-    <object-name>ImatWing1</object-name>
-    <object-name>ImatWing2</object-name>
     <object-name>ImatWing3</object-name>
     <object-name>ImatWing4</object-name>
-    <object-name>ImatWing5</object-name>
-    <object-name>ImatWing6</object-name>
     <object-name>ImatFuselageL1</object-name>
     <object-name>ImatFuselageL2</object-name>
     <object-name>ImatFuselageL3</object-name>
     <object-name>ImatFuselageL4</object-name>
-    <object-name>ImatFuselageL5</object-name>
-    <object-name>ImatFuselageL6</object-name>
     <object-name>ImatFuselageR1</object-name>
     <object-name>ImatFuselageR2</object-name>
     <object-name>ImatFuselageR3</object-name>
     <object-name>ImatFuselageR4</object-name>
-    <object-name>ImatFuselageR5</object-name>
-    <object-name>ImatFuselageR6</object-name>
     <object-name>ImatPanel1</object-name>
     <object-name>ImatPanel2</object-name>
     <object-name>ImatPanel3</object-name>
     <object-name>ImatPanel4</object-name>
-    <object-name>ImatPanel5</object-name>
-    <object-name>ImatPanel6</object-name>
   </animation>
 
-  <!-- Ne me demandez pas comment j'ai obtenu la formule du facteur, ce fut au feeling ;) -->
-  <!--
-       Largeur de l'image complète : 2048 pixels
-       Largeur d'un caractère      :   50 pixels
-       Nombre de cases             : 2048/50 = 40.96
-       factor                      : 1/40.96 = 0.0244140625
-  -->
-  <!-- Fuselage gauche -->
+  <!-- Fuselage Left -->
   <animation> 
     <type>textranslate</type> 
     <object-name>ImatFuselageL1</object-name> 
@@ -116,31 +99,8 @@
     </axis> 
   </animation>
 
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatFuselageL5</object-name> 
-    <property>sim/multiplay/generic/int[4]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
 
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatFuselageL6</object-name> 
-    <property>sim/multiplay/generic/int[5]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <!-- Fuselage droit -->
+  <!-- Fuselage Right -->
   <animation> 
     <type>textranslate</type> 
     <object-name>ImatFuselageR1</object-name> 
@@ -189,54 +149,7 @@
     </axis> 
   </animation>
 
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatFuselageR5</object-name> 
-    <property>sim/multiplay/generic/int[4]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatFuselageR6</object-name> 
-    <property>sim/multiplay/generic/int[5]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <!-- Dessous aile -->
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatWing1</object-name> 
-    <property>sim/multiplay/generic/int[0]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatWing2</object-name> 
-    <property>sim/multiplay/generic/int[1]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
+  <!-- WING -->
 
   <animation> 
     <type>textranslate</type> 
@@ -262,31 +175,7 @@
     </axis> 
   </animation>
 
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatWing5</object-name> 
-    <property>sim/multiplay/generic/int[4]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatWing6</object-name> 
-    <property>sim/multiplay/generic/int[5]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <!-- Tableau de bord -->
+  <!-- panel -->
   <animation> 
     <type>textranslate</type> 
     <object-name>ImatPanel1</object-name> 
@@ -327,30 +216,6 @@
     <type>textranslate</type> 
     <object-name>ImatPanel4</object-name> 
     <property>sim/multiplay/generic/int[3]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatPanel5</object-name> 
-    <property>sim/multiplay/generic/int[4]</property>
-    <factor> 0.0244140625 </factor>
-    <axis> 
-      <x> 1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis> 
-  </animation>
-
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>ImatPanel6</object-name> 
-    <property>sim/multiplay/generic/int[5]</property>
     <factor> 0.0244140625 </factor>
     <axis> 
       <x> 1 </x> 
