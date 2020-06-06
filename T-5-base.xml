@@ -74,6 +74,7 @@
       <file>Aircraft/T-5/Nasal/electrical.nas</file>
       <file>Aircraft/T-5/Nasal/light.nas</file>
       <file>Aircraft/T-5/Nasal/liveries.nas</file>
+      <file>Aircraft/T-5/Nasal/light-manager.nas</file>
       <file>Aircraft/T-5/Nasal/immat.nas</file>
       <file>Aircraft/T-5/Nasal/instruments.nas</file>
       <file>Aircraft/T-5/Models/Interior/Panel/Instruments/kns80/kns80.nas</file>
